@@ -21,4 +21,6 @@ else
     touch logs/error.log logs/access.log
 fi
 
+whoami
+echo "bananas"
 sudo chmod -R 777 logs
