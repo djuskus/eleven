@@ -2,7 +2,7 @@
 
 source env/bin/activate
 
-cd /var/lib/jenkins/workspace/eleven_ci_cd/app
+cd /var/lib/jenkins/workspace/eleven_ci_cd/eleven
 
 python3 manage.py makemigrations
 python3 manage.py migrate
