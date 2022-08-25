@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo cp -rf app.conf /etc/nginx/sites-available/eleven
+sudo cp -rf eleven.conf /etc/nginx/sites-available/eleven
 chmod 710 /var/lib/jenkins/workspace/eleven_ci_cd
 
 sudo ln -s /etc/nginx/sites-available/eleven /etc/nginx/sites-enabled
