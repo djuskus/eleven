@@ -7,6 +7,7 @@ else
     python3 -m venv env
 fi
 
+pwd 
 source env/bin/activate
 
 
